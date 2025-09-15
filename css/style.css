@@ -74,3 +74,9 @@ body {
     font-size: 1em; /* Smaller subheading */
   }
 }
+main section {
+  background-color: white; 
+  padding: 20px; 
+  margin: 20px 0; 
+  border-radius: 8px; 
+}
