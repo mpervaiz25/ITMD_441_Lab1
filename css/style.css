@@ -50,3 +50,9 @@ body {
   list-style-type: disc; /* Bullets */
   padding-left: 20px; /* Indent bullets */
 }
+.project-img {
+  max-width: 100%; 
+  height: auto; 
+  margin-top: 10px; 
+  border: 1px solid #ccc; /* Light border around image */
+}
