@@ -34,3 +34,14 @@ body {
   font-size: 1.3em;
   margin-bottom: 20px;
 }
+
+.contact-links a {
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+/* Hover effect for contact links */
+.contact-links a:hover {
+  color: #ddd;
+}
