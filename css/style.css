@@ -18,8 +18,8 @@ body {
 }
 
 .site-header {
-  background-color: #add8e6; /* Light Blue background */
-  color: white; 
+  background-color: #b3d9ff; /* Light Blue background */
+  color: #000; 
   padding: 40px 0; /* Vertical space above and below */
   text-align: center; 
 }
@@ -55,4 +55,22 @@ body {
   height: auto; 
   margin-top: 10px; 
   border: 1px solid #ccc; /* Light border around image */
+}
+
+.site-footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 40px;
+  color: #555; 
+}
+
+/* Styling for phone screens */
+@media (max-width: 600px) {
+  .site-header h1 {
+    font-size: 2em; /* Smaller heading on mobile */
+  }
+
+  .site-header h2 {
+    font-size: 1em; /* Smaller subheading */
+  }
 }
