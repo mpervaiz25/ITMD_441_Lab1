@@ -10,3 +10,27 @@ body {
   background-color: #ffffff;
   padding-bottom: 40px; /* Space at the bottom of the page */
 }
+
+.container {
+  width: 90%; 
+  max-width: 800px; 
+  margin: 0 auto;
+}
+
+.site-header {
+  background-color: #add8e6; /* Light Blue background */
+  color: white; 
+  padding: 40px 0; /* Vertical space above and below */
+  text-align: center; 
+}
+
+.site-header h1 {
+  font-size: 2.5em; /* Large name font */
+  margin-bottom: 10px;
+}
+
+.site-header h2 {
+  font-weight: normal; 
+  font-size: 1.3em;
+  margin-bottom: 20px;
+}
