@@ -45,3 +45,8 @@ body {
 .contact-links a:hover {
   color: #ddd;
 }
+
+.skills ul {
+  list-style-type: disc; /* Bullets */
+  padding-left: 20px; /* Indent bullets */
+}
